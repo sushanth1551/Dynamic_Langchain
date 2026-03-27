@@ -7,7 +7,7 @@ load_dotenv()
 
 st.set_page_config(page_title="AI Assistant", page_icon="🤖")
 
-st.title("🤖 AI Assistant (LangChain + Groq)")
+st.title("🤖 AI Assistant")
 
 # Initialize chat history
 if "messages" not in st.session_state:
